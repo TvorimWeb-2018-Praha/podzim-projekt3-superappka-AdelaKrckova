@@ -28,6 +28,135 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    height: 960px;
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+.hlavicka {
+    display:flex;
+    height:60px;
+}
+
+.nazev {
+    text-transform: uppercase;
+    width: 160px;
+    text-align:center;
+    color: #48418e;
+    font-weight: bold;
+}
+
+.polozka {
+    width:160px;
+    text-decoration: none;
+    color:  #48418e;
+    display:inline-block;
+ }
+.logo {
+    background-image: url(pozadi.jpg); 
+    /* Nevím proč, ale když mám to pozadí ve složce images, tak mi to nefunguje :/ */
+    width: 960px;
+    height: 480px;
+    position: relative;
+    color: white;
+}
+
+.jmeno {
+    font-size: 80px;
+    font-weight: 500;
+    margin-top:10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.radek1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top:0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+.radek2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-top:0px;
+    margin-left: 30px;
+}
+
+.tlacitka {
+    margin:60px 0px 0px 0px;
+    padding: 0px;
+}
+.prvni {
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+    border:solid;
+    border-radius: 10px;
+    border-width:1px;
+    height: 55px;
+    width: 200px;
+    text-align:center;
+    margin: 10px 10px 0px 30px;
+    background-color: #48418e;
+}
+.druhe {
+    text-decoration: none;
+    display:inline-block; 
+    font-size: 20px; 
+    border:solid;
+    border-radius: 10px;
+    border-width:1px;
+    height: 55px;
+    width: 200px;
+    text-align:center;
+}
+
+.odkaz {
+    text-decoration: none;
+    text-align:center;
+    color: white;
+}
+
+.telefon {
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+}
+.pozadi {
+    width: 960px;
+    height: 480px;
+    position: absolute;
+    top:0px;
+}
+.obrazek {
+    width:70px;
+    height:70px;
+}
+
+.informace {
+    display:flex;
+    height:360px;
+}
+.popis {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+h3 {
+    color: #48418e;
+}
+.dobrodruzstvi {
+    margin-right:30px;    
+}
+
+.lista {
+    height: 60px;
+    color: white;
+    text-align:center;
+    background-color: #48418e;
+}
+
+.copyright {
+    display: inline-block;
+}
